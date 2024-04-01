@@ -1,0 +1,25 @@
+{
+  "name": "cloudmos-gpu-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@akashnetwork/akashjs": "^0.5.11",
+    "@cosmjs/proto-signing": "^0.32.3",
+    "@cosmjs/stargate": "^0.32.3",
+    "axios": "^1.6.8",
+    "cosmjs-types": "^0.9.0",
+    "dotenv": "^16.4.5",
+    "jsrsasign": "^11.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/jsrsasign": "^10.5.13"
+  }
+}
